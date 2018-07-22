@@ -25,8 +25,15 @@
 
 - Ruby
 - Ruby on Rails
-- JavaScript(jQuery)
-- MySQL・PostgreSQL、MongoDB
+- JavaScript
+  - jQuery
+  - React
+  - Vue
+- DB
+  - MySQL
+  - PostgreSQL
+  - MongoDB
+  - Redis
 
 ## インフラ
 
@@ -50,21 +57,42 @@
 
 ## 主な業務内容
 
-- ユーザーが、撮影した及びスキャンした名刺画像をデータベース管理できるようデータ化するシステムの開発
-  - システムの構成は、アプリケーション部分は、Ruby on Rails。インフラ部分は、AWS
+- 名刺データ化サービスの開発・運用
+
+### 開発を行ったシステムの特徴
+- 名刺のデータ化をいくつかの工程に分け、１つの工程毎にマイクロサービスとして分離し、API連携を行う
+- 実際の名刺画像から、各項目(氏名、会社名、住所など)をオペレーターによる人力の入力、OCRを利用した画像認識・機械学習による自動入力を利用した名刺に特化した入力システム
+- 多様な言語の名刺に対応した入力システム
+  - 日本語、英語、中国語、韓国語、フランス語、ドイツ語、スペイン語、ポルトガル語、タイ語、etc
+- 多様な名刺のパターンを想定したノーマライズ処理(正規化処理)
+- 名刺にあるいくつかの情報を利用した名寄せロジックの実装
+
+### 開発システムの構成
+
+- Ruby on Rails
+- AWS
+  - SWF (Amazon Simple Workflow)
+  - RDS
+    - Amazon Aurora
+  - CloudSearch
+  - Redshift
+- マイクロサービスアーキテクチャ
 
 ## 担当業務
-- 要件定義
-- 基本的な仕様設計
+- 要件定義
+- 仕様設計
 - サーバーサイド(API)の設計・開発
 - フロントエンドの画面設計・開発
 - 施策の案出し及び調査のためのデータ抽出
 - 検証ケースの考案・Qiita Teamによるドキュメント作成と検証の実行
 - テスト
+  - RSpec
+  - Feature Test
 - デプロイ・リリース
 - 開発環境の改善
   - NewRelicの導入
   - Jenkins から CircleCI の導入・移行
+  - Rubyのバージョンアップ移行(2.3.1 -> 2.5.1)
 - エラー調査・改善
   - 発見したログを元に原因究明し、実装の修正
 
@@ -74,11 +102,11 @@
   - ストーリー(チケット)の見積もり
   - 実装
   - テスト
-  - GitHubプルリクエストによるレビュー
+  - GitHubプルリクエストによるReview, Approve
 
 # 業務外での活動
 
-プライベートでは、個人的に興味のあるフロントエンド分野の技術を調査・試行しています。
+- プライベートでは、個人的に興味のあるフロントエンド分野の技術を調査・試行しています。
 
 ### Vue.js
 
@@ -87,8 +115,29 @@
 
 ### React.js
 
-- MERNスタック(MongoDB, Express, React, Node.js)な JavaScript アプリケーションを学習用に作成
+- フルスタック(MongoDB, Express, React, Node.js)な JavaScript アプリケーションを学習用に作成
   - https://github.com/samuraikun/node_with_react_app
+
+# 前職及び現職で得た経験・スキル
+- Ruby on RailsによるMVCアプリケーション開発経験
+- RailsによるFat Model, Fat Controllerを回避するための開発経験
+- RSpecを使用したテスト駆動開発
+- Sidekiqを使用した非同期バックグラウンド処理の実装
+- AWSにあるいくつかのサービスの使用経験
+- プロダクトで使用するRubyのバージョンアップ実施
+- BIツール(Redash)を使用したデータ集計
+- 各種ツールの導入
+  - CircleCI
+  - NewRelic
+
+# 業務以外で得た経験・スキル
+- JavaScript(ES6)
+- React, Redux
+- Vue.js
+- Node.js, Express
+- Google App Engineを使用したSPAアプリケーションのプロトタイプ作成
+- モブプログラミングによるReactアプリケーションのハンズオン形式の勉強会の講師
+- Vue.jsとElectronを使用したTODOアプリケーションの開発
 
 # この先やっていきたいこと
 
@@ -99,8 +148,6 @@
   - GraphQL
   - TypeScript
   - Swagger, JSON Schema
-  - PWA
-  - TDD
 
 ## UI・UXが強みとなるプロダクトのサービス向上・改善
 
