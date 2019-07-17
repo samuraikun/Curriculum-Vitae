@@ -50,6 +50,10 @@
 | CloudSearch  |
 | Lambda       |
 
+### その他
+- Terraform
+- Serverless
+
 # 職務経歴
 
 ## 2019/01/07 - 現在 Crevo株式会社
