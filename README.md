@@ -45,30 +45,27 @@
 | 使用・構築経験 |
 |--------------|
 | EC2          |
+| VPC          |
 | S3           |
-| RDS          |
-| API Gateway  |
-| SWF          |
-| Redshift     |
-| CloudSearch  |
+| RDS(Aurora)  |
 | Lambda       |
+| Athena       |
+| CloudFront   |
+| Route53      |  
+| SQS          |
+| DynamoDB     |
 
 ### GCP
 
 | 使用・構築経験 |
-|--------------|
+|-------------------|
 | Google App Engine |
-| Cloud Storage |
-| Cloud Function |
-
-### Firebase
-
-| 使用・構築経験 |
-|--------------|
-| Firebase Authentication |
-| Firestore |
+| Cloud Storage     |
+| Cloud Function    |
+| Cloud Firestore   |
 
 ### その他
+- Itamae
 - Terraform
 - Serverless Framework
 
@@ -85,7 +82,11 @@
 - Atomic Design に基づいたコンポーネント設計及び実装
 - Storybook によるUIコンポーネントの管理・運用
 - Webpack、Webpacker(Ruby on Rails用のWebpackラッパー)によるフロントエンドビルドまわりの改善
-- Serverless Framework を使用した AWS Lambdaの開発・デプロイ
+- AWSを用いたインフラの構築・改修
+- 監視Saasの選定・導入及び各インフラリソースの監視
+  - Mackerelの導入
+  - 各サーバーのモニタリング・アラート設定
+  - 各AWSサービスのモニタリング・アラート設定
 
 ## 2019/02/01 - 2019/04/03 ジラフ株式会社
 - 中古スマートフォンに特化したフリマサービスの開発
