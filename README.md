@@ -50,10 +50,17 @@
 | RDS(Aurora)  |
 | Lambda       |
 | Athena       |
+| CloudWatch   |
 | CloudFront   |
+| CloudFormation |
 | Route53      |  
 | SQS          |
 | DynamoDB     |
+| ECR          |
+| ECS(Fargate) |
+| Step Functions |
+| AppSync      |
+| Amplify      |
 
 ### GCP
 
@@ -232,6 +239,6 @@
   - 遅延のない操作
 
 ## メンテナブルかつスケールするバックエンドシステムの構築
-- AWSを用いたインフラ構成
+- AWSを用いた Well Architected なインフラ構成
 - 変更に強いデータモデリング
 - サーバーレスコンピューティングを用いた高スケーラビリティ・低コストなバックエンド処理
