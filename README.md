@@ -216,29 +216,38 @@
 
 # この先やっていきたいこと
 
-## モダンなアーキテクチャを採用したフロントエンド開発
+# AWS・コンテナーを活用したインフラの開発、アーキテクチャの改善・刷新
 
-- 特に興味関心がある技術・概念
-  - React.js, Vue.js
-  - Nuxt.js
-  - TypeScript
-  - GraphQL
-  - サーバーレス関連の技術
-    - AWS Lambda
-    - Cloud Functions
-    - Serverless Framework
-  - NoSQL
-    - Firestore
-    - NoSQLによるデータモデリング
+## やりたいこと・経験したこと
+- AWS Well Architectedに基づいて、AWSの各サービスを組み合わせたシステム設計
+- Terraform or その他laCツールによるインフラの構築・管理
+- Go言語を用いたインフラ関連のプラグイン開発
+  - 例：Mackerelプラグインの開発など
+- 監視ツール(Mackerel, Datadog, Prometheus)を用いた各リソースのメトリクス監視の仕組み構築・SLO・SLIの策定
+- CircleCI, Github ActionsによるCI・CD基盤の構築・改善
+- GCPの一部サービスの利用
+  - BigQuery
+  - Cloud Run
+  - StackDriver
 
-## UI・UXが強みとなるプロダクトのサービス向上・改善
+## あまり興味がない・経験していないこと
+- Kubernetes
+- Microsoft Azure
+- Microservice
+- gRPC
 
-- ユーザーにストレスを与えないUIの実現
-  - 高速な表示
-  - 意図が明確な画面構成
-  - 遅延のない操作
+# モダンなフロントエンド開発
 
-## メンテナブルかつスケールするバックエンドシステムの構築
-- AWSを用いた Well Architected なインフラ構成
-- 変更に強いデータモデリング
-- サーバーレスコンピューティングを用いた高スケーラビリティ・低コストなバックエンド処理
+## 具体的に希望する技術スタック
+- TypeScript
+- GraphQL
+  - Appollo Client, Apollo ServerによるGraphQL BFFサーバーの開発
+- React
+- Next.js
+- Redux
+- React Hooks
+- Vue
+- Vuex
+- Nuxt.js
+- Jest
+- Cypress(E2E)
