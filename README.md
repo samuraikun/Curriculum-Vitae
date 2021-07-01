@@ -230,12 +230,6 @@
   - Cloud Run
   - StackDriver
 
-## あまり興味がない・経験していないこと
-- Kubernetes
-- Microsoft Azure
-- Microservice
-- gRPC
-
 # モダンなフロントエンド開発
 
 ## 具体的に希望する技術スタック
