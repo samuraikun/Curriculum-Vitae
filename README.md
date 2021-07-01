@@ -216,7 +216,23 @@
 
 # この先やっていきたいこと
 
-# AWS・コンテナーを活用したインフラの開発、アーキテクチャの改善・刷新
+## バックエンド開発を主軸にしつつ、クラウドネイティブなシステムのアーキテクチャ設計やlaCによるインフラ構築・運用監視
+
+### バックエンド開発観点
+- Ruby on Railsによるフロントエンドを除くバックエンドAPIの開発・リファクタリング
+  - Fat Model, Fat Controllerな実装を責務を分けてPORO(Pure Old Ruby Object)をベースにしたリファクタリング等
+- Go言語によるバックエンド開発・テスト駆動開発・リファクタリング
+- Railsに代表されるようなActiveRecordパターンだけでなく、CQRS(コマンドクエリ責務分離)に基づいたモデリング及び開発
+- ドメイン駆動設計をベースにしたシステムの設計・実装
+
+### クラウドネイティブ(インフラ)観点
+- AWSなどを用いたクラウドネイティブなシステムのアーキテクチャ設計
+- TerraformによるAWSあるいはGCPなどのクラウドを用いたシステムの構築・運用
+- コンテナー技術を活用したWebアプリケーションのインフラ構築・改善
+- CircleCI, Github ActionsによるDevOps環境の構築・改善
+- システムパフォーマンス観点でのKPI策定・運用
+- Datadog, Prometheus, Grafana等の監視ツールを用いたシステムの監視体制の構築および定常監視
+- サービスレベル指標(SLI)、グロースハック観点の指標に基づいた分析基盤の構築・運用
 
 ## やりたいこと・経験したこと
 - AWS Well Architectedに基づいて、AWSの各サービスを組み合わせたシステム設計
@@ -229,19 +245,3 @@
   - BigQuery
   - Cloud Run
   - StackDriver
-
-# モダンなフロントエンド開発
-
-## 具体的に希望する技術スタック
-- TypeScript
-- GraphQL
-  - Appollo Client, Apollo ServerによるGraphQL BFFサーバーの開発
-- React
-- Next.js
-- Redux
-- React Hooks
-- Vue
-- Vuex
-- Nuxt.js
-- Jest
-- Cypress(E2E)
