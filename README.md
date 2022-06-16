@@ -38,9 +38,10 @@
 ## クラウド
 
 ### AWS
-- 2020年3月 AWSソリューションアーキテクトアソシエイト合格
-  - 認定情報: https://aw.certmetrics.com/amazon/public/verification.aspx
-  - 認証コード: PPMSEE2KEBBQQEG6
+- 2020年3月 AWSソリューションアーキテクトアソシエイト取得
+  - オンライン証明書: https://www.credly.com/badges/1d2b0dfe-7360-4449-b9de-68d050a92683/public_url
+- 2022年5月 AWSソリューションアーキテクトプロフェッショナル取得
+  - オンライン証明書: https://www.credly.com/badges/24dbed30-f1d5-4eb9-9af5-94a85e761a72/public_url
 
 | 使用・構築経験 |
 |--------------|
@@ -94,7 +95,7 @@
   - Mackerelの導入
   - 各サーバーのモニタリング・アラート設定
   - 各AWSサービスのモニタリング・アラート設定
-- AWS MediaConvertを使用した動画トランスコーディング基盤の構築
+  - AWS MediaConvertを使用した動画トランスコーディング基盤の構築
   - クライアントからアップロードされた動画ファイルをHLS形式、MPEG-DASH形式で配信するための設計・実装
   - ElasticTranscoderからMediaConvertへの移行
 
