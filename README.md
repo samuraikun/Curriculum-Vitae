@@ -99,6 +99,18 @@
   - クライアントからアップロードされた動画ファイルをHLS形式、MPEG-DASH形式で配信するための設計・実装
   - ElasticTranscoderからMediaConvertへの移行
 
+## 2021/03 - 現在 pipon株式会社
+- パートタイムにて勤務
+- ドイツ大手製薬会社向けに製薬研究開発向けのプレゼンテーション資料検索システムのインフラ構築・運用
+  - https://prtimes.jp/main/html/rd/p/000000006.000061053.html
+- Terraformを使用してAWSのインフラを自身で全て0から構築
+
+<details>
+<summary>構築したインフラのアーキテクチャ概要</summary>
+
+![image](https://user-images.githubusercontent.com/7115171/183028236-3daefdaa-27fd-4942-be45-7d2e18ef8332.png)
+</details>
+
 ## 2019/02/01 - 2019/04/03 ジラフ株式会社
 - 中古スマートフォンに特化したフリマサービスの開発
 - 土日週２稼働のリモートによる開発
