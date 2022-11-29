@@ -7,6 +7,7 @@
 | 氏名 | 小島佑一 |
 | GitHub | https://github.com/samuraikun |
 | Qiita | https://qiita.com/samuraikun |
+| Zenn | https://zenn.dev/samuraikun |
 
 # スキル
 
