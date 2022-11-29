@@ -7,6 +7,7 @@
 | 氏名 | 小島佑一 |
 | GitHub | https://github.com/samuraikun |
 | Qiita | https://qiita.com/samuraikun |
+| Zenn | https://zenn.dev/samuraikun |
 
 # スキル
 
@@ -20,7 +21,7 @@
 
 - 日常会話レベル
 - 英語の公式ドキュメントが読める程度
-- TOEIC L&R 705
+- TOEIC L&R 705点
 
 ## 経験言語・ツール
 Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, CircleCI, Github Actions
