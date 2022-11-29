@@ -51,7 +51,7 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
   - Mackerelの導入
   - 各サーバーのモニタリング・アラート設定
   - 各AWSサービスのモニタリング・アラート設定
-  - AWS MediaConvertを使用した動画トランスコーディング基盤の構築
+- AWS MediaConvertを使用した動画トランスコーディング基盤の構築
   - クライアントからアップロードされた動画ファイルをHLS形式、MPEG-DASH形式で配信するための設計・実装
   - ElasticTranscoderからMediaConvertへの移行
 
