@@ -41,7 +41,7 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 ## 2019/01/07 - 現在 Crevo株式会社
 - ソフトウェアエンジニアとして勤務
 
-## 主な業務内容
+### 主な業務内容
 - 動画制作管理ツール(Saas)の開発・保守運用
 - Rails によるサーバーサイド開発
 - Vue.js, Vuexによるフロントエンド開発
