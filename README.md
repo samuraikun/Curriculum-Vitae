@@ -21,7 +21,7 @@
 
 - 日常会話レベル
 - 英語の公式ドキュメントが読める程度
-- TOEIC L&R 705点
+- TOEIC L&R 750点
   - CEFR B1レベル
     - https://www.efset.org/ja/cefr/b1/
 
