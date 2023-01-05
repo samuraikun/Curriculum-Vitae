@@ -22,8 +22,8 @@
 - 日常会話レベル
 - 英語の公式ドキュメントが読める程度
 - TOEIC L&R 790点
-  - CEFR B1レベル
-    - https://www.efset.org/ja/cefr/b1/
+  - CEFR B2レベル
+    - https://www.efset.org/ja/cefr/b2/
 
 ## 経験言語・ツール
 Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, CircleCI, Github Actions

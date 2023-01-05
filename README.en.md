@@ -31,8 +31,8 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 - Daily conversation level
 - English level to be able to read official documents in English
 - TOEIC L&R 790
-  - CEFR B1 level
-    - https://www.efset.org/ja/cefr/b1/
+  - CEFR B2 level
+    - https://www.efset.org/cefr/b2/?lang=en
 
 # Job History
 
@@ -110,7 +110,7 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 ### Nuxt.js & Rails on Docker
 - https://github.com/samuraikun/rails-nuxt-typescript-docker-example
 
-### Serverless
+### Serverless Framework
 - https://qiita.com/samuraikun/items/bf0936a5d3386c4914fa
 
 ### Firebase
@@ -124,34 +124,3 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
     - https://amzn.asia/d/fAUCoJa
 - Wrote a book (coterie magazine) titled "Introduction to Serverless Development with Amplify and AppSync" at Tech Book Fest 7.
   - https://booth.pm/ja/items/1574736
-
-## What I want to do in the future
-
-## While focusing on backend development, architectural design of cloud-native systems, and infrastructure construction and operation monitoring using IaC.
-
-### Perspective of backend development
-- Development and refactoring of backend API except frontend using Ruby on Rails
-  - Refactoring based on PORO (Pure Old Ruby Object) by dividing Fat Model, Fat Controller implementation into different responsibilities, etc.
-- Backend development, test-driven development and refactoring with Go language
-- Modeling and development based on CQRS (Command Query Responsibility Separation) as well as ActiveRecord pattern as represented in Rails
-- Design and implementation of systems based on domain-driven design
-
-### Cloud (infrastructure) perspective
-- Architectural design of systems using AWS, etc.
-- System construction and operation using AWS or GCP cloud computing with Terraform
-- Construction and improvement of web application infrastructure using container technology
-- Construction and improvement of DevOps environment using CircleCI and Github Actions
-- KPI development and operation from a system performance perspective
-- Establishment and regular monitoring of system monitoring system using monitoring tools such as Datadog, Prometheus, Grafana, etc.
-- Establishment and operation of analysis infrastructure based on Service Level Indicators (SLI) and Growth Hack perspective.
-
-## What we want to do/experienced
-- System design based on AWS Well Architected, combining AWS services
-- Build and manage infrastructure using Terraform or other IaC tools
-- Development of infrastructure-related plug-ins using Go language
-- Establishment of metrics monitoring system for each resource using monitoring tools (Mackerel, Datadog, Prometheus), SLOs and SLIs.
-- Building and improving CI/CD infrastructure using CircleCI and Github Actions
-- Use of some GCP services
-  - BigQuery
-  - Cloud Run
-  - StackDriver
