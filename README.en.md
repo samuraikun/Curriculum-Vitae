@@ -65,7 +65,7 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 <details>
 <summary>Architectural overview of the built infrastructure</summary>.
 
-! [image](https://user-images.githubusercontent.com/7115171/183028236-3daefdaa-27fd-4942-be45-7d2e18ef8332.png)
+![image](https://user-images.githubusercontent.com/7115171/183028236-3daefdaa-27fd-4942-be45-7d2e18ef8332.png)
 </details>
 
 ## 2019/02/01 - 2019/04/03 Giraffe Inc.
