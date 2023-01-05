@@ -1,4 +1,5 @@
 # 職務経歴書
+[※英語版](https://github.com/samuraikun/Curriculum-Vitae/blob/master/README.en.md)
 
 # 基本情報
 
