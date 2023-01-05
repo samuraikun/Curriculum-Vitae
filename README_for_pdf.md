@@ -21,7 +21,9 @@
 
 - 日常会話レベル
 - 英語の公式ドキュメントが読める程度
-- TOEIC L&R 705点
+- TOEIC L&R 790点
+  - CEFR B1レベル
+    - https://www.efset.org/ja/cefr/b1/
 
 ## 経験言語・ツール
 Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, CircleCI, Github Actions
@@ -85,6 +87,10 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 
 - 個人的に興味のあるサーバーレスやフロントエンド分野の技術を調査・試行しています
 - Web技術関係のイベントに参加し、自身の経験や知識に関して、アウトプットしています
+
+### Golang
+- サイバーエージェント社が主催したGo言語の研修を3ヶ月受講しました
+  - https://www.cyberagent.co.jp/news/detail/id=26667
 
 ### Vue.js
 
