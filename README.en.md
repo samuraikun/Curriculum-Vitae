@@ -5,7 +5,7 @@
 | key | value|
 |-----|------|
 | Name | Yuichi Kojima |
-| https://github.com/samuraikun | Qiita | https://github.com/samuraikun | https://github.com/samuraikun
+| GitHub | https://github.com/samuraikun | https://github.com/samuraikun | https://github.com/samuraikun
 | Qiita | https://qiita.com/samuraikun |
 | Zenn | https://zenn.dev/samuraikun |
 
