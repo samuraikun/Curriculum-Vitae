@@ -9,6 +9,8 @@
 | GitHub | https://github.com/samuraikun |
 | Qiita | https://qiita.com/samuraikun |
 | Zenn | https://zenn.dev/samuraikun |
+| Linkedin | https://www.linkedin.com/in/yuichi-kojima-b2756995/ |
+| Blog | https://samuraikun.dev |
 
 # スキル
 
@@ -39,10 +41,18 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 
 # 職務経歴
 
-## 2019/01/07 - 現在 Crevo株式会社
+## 2023/02 - 現在 フリーランス
+- 教育系サービスの開発・運用プロジェクトに参画
+  - 既存システムの設計改善および機能開発
+  - Ruby on Railsによるバックエンド開発
+  - GraphQL APIの開発
+
+## 2019/01/07 - 2023/01 Crevo株式会社
 - ソフトウェアエンジニアとして勤務
 
 ### 主な業務内容
+<details><summary>詳細</summary>
+
 - 動画制作管理ツール(Saas)の開発・保守運用
 - Rails によるサーバーサイド開発
 - Vue.js, Vuexによるフロントエンド開発
@@ -59,7 +69,10 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
   - クライアントからアップロードされた動画ファイルをHLS形式、MPEG-DASH形式で配信するための設計・実装
   - ElasticTranscoderからMediaConvertへの移行
 
-## 2021/03 - 現在 pipon株式会社
+</details>
+
+## 2021/03 - 2022/12 pipon株式会社
+
 - パートタイムにて勤務
 - ドイツ大手製薬会社向けに製薬研究開発向けのプレゼンテーション資料検索システムのインフラ構築・運用
   - https://prtimes.jp/main/html/rd/p/000000006.000061053.html
@@ -77,11 +90,12 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 - React, TypeScriptによるフロントエンド開発を担当
 
 ## 2016/04/01 - 2018/08/31 Sansan 株式会社
-
 - https://jp.corp-sansan.com/
 - Web アプリケーションエンジニアとして勤務
 
 ### 主な業務内容
+<details><summary>詳細</summary>
+
 - Ruby on Railsによる名刺データ化サービスの開発・運用
   - 名刺のデータ化をいくつかの工程に分け、１つの工程毎にマイクロサービスとして分離し、API連携を行う
   - 実際の名刺画像から、各項目(氏名、会社名、住所など)をオペレーターによる人力の入力、OCRを利用した画像認識・機械学習による自動入力を利用した名刺に特化した入力システム
@@ -90,10 +104,16 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
   - 多様な名刺のパターンを想定したノーマライズ処理(正規化処理)
   - 名刺にあるいくつかの情報を利用した名寄せロジックの実装
 
+</details>
+
 # 業務外での活動
 
-- 個人的に興味のあるサーバーレスやフロントエンド分野の技術を調査・試行しています
+- 個人的に興味のある分野の技術を調査・試行しています
 - Web技術関係のイベントに参加し、自身の経験や知識に関して、アウトプットしています
+
+### GraphQL
+- `graphql-ruby` を使用したRuby on RailsによるGraphQL APIのバックエンド実装
+  - https://github.com/samuraikun/graphql-ruby-hands-on
 
 ### Golang
 - サイバーエージェント社が主催したGo言語の研修を3ヶ月受講しました
@@ -103,6 +123,8 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 
 - Vue.js & Electorn で構成されたTODOアプリを開発しながらVue.jsについての記事を書きました
   - https://qiita.com/samuraikun/items/bb2939296bbead341293
+- Atomic Designに基づいて実装したコンポーネント郡のStorybook
+  - https://github.com/samuraikun/atomic-design-vue
 
 ### React.js
 
@@ -110,6 +132,12 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
   - https://github.com/samuraikun/node_with_react_app
 - React HooksとGraphQLを組み合わせたReactアプリケーション
   - https://github.com/samuraikun/appsync-amplify-sample-app-for-techbookfest7
+- Atomic Designに基づいて実装したコンポーネント郡のStorybook
+  - https://github.com/samuraikun/atomic-design-react-sketchbook
+
+### Next.js
+- Headless CMSとしてNotion APIを使用し、Next.jsで自身のブログを作成
+  - https://github.com/samuraikun/notion-headless-cms-nextjs-blog
 
 ### Nuxt.js & Rails on Docker
 - https://github.com/samuraikun/rails-nuxt-typescript-docker-example

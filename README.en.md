@@ -5,9 +5,11 @@
 | key | value|
 |-----|------|
 | Name | Yuichi Kojima |
+| Linkedin | https://www.linkedin.com/in/yuichi-kojima-b2756995/ |
 | GitHub | https://github.com/samuraikun | https://github.com/samuraikun | https://github.com/samuraikun
 | Qiita | https://qiita.com/samuraikun |
 | Zenn | https://zenn.dev/samuraikun |
+| Blog | https://samuraikun.dev |
 
 # Skills
 
@@ -36,10 +38,18 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 
 # Job History
 
+## 2023/02 - Current Freelance
+- Participation in development and operation projects for education-related services
+  - Design improvement and functional development of existing systems
+  - Back-end development using Ruby on Rails
+  - GraphQL API development
+
 ## 2019/01/7 - 2023/01/31 Crevo Inc.
 - Working as a Software Engineer.
 
 ### Main Responsibilities.
+<details><summary>details</summary>
+
 - Development, maintenance and operation of video production management tool (Saas)
 - Server side development with Rails
 - Front-end development with Vue.js, Vuex
@@ -55,6 +65,8 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 - Construction of video transcoding infrastructure using AWS MediaConvert
   - Design and implementation for delivery of video files uploaded by clients in HLS and MPEG-DASH formats
   - Migration from ElasticTranscoder to MediaConvert
+
+</details>
 
 ## 2021/03 - 2022/12 pipon inc.
 - Working part time
@@ -78,6 +90,8 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 - Worked as a Web Application Engineer
 
 ### Main Responsibilities.
+<details><summary>details</summary>
+
 - Development and operation of business card databasing service using Ruby on Rails
   - Divide business card databasing into several processes, isolate each process as a microservice, and perform API integration
   - Input system specialized for business cards using human operator input of each item (name, company name, address, etc.) from actual business card images, image recognition using OCR, and automatic input using machine learning.
@@ -86,10 +100,16 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
   - Normalization process for various business card patterns
   - Implementation of name matching logic using some information on business cards
 
+</details>
+
 # Activities outside of business
 
 - Investigating and experimenting with serverless and front-end technologies that I am personally interested in.
 - Participating in events related to web technology, and outputting my experience and knowledge.
+
+### GraphQL
+- Backend implementation of GraphQL API in Ruby on Rails using `graphql-ruby`.
+  - https://github.com/samuraikun/graphql-ruby-hands-on
 
 ### Golang
 - I attended a 3 month Go language training course organized by CyberAgent, Inc.
@@ -99,6 +119,8 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
 
 - Wrote an article about Vue.js while developing a TODO app composed of Vue.js & Electorn
   - https://qiita.com/samuraikun/items/bb2939296bbead341293
+- Storybook of UI components implemented based on Atomic Design
+  - https://github.com/samuraikun/atomic-design-vue
 
 ### React.js
 
@@ -106,6 +128,12 @@ Ruby, Ruby on Rails, JavaScript, TypeScript, Vue.js, React.js, AWS, Terraform, C
   - https://github.com/samuraikun/node_with_react_app
 - React application combining React Hooks and GraphQL
   - https://github.com/samuraikun/appsync-amplify-sample-app-for-techbookfest7
+- Storybook of UI components implemented based on Atomic Design
+  - https://github.com/samuraikun/atomic-design-react-sketchbook
+
+### Next.js
+- Using the Notion API as a Headless CMS, create my own blog in Next.js.
+  - https://github.com/samuraikun/notion-headless-cms-nextjs-blog
 
 ### Nuxt.js & Rails on Docker
 - https://github.com/samuraikun/rails-nuxt-typescript-docker-example
